@@ -58,3 +58,5 @@
    ```
 
 By following these steps, you can effectively manage S3, deploy Spring Boot applications to EC2, and terminate processes running on your EC2 instance. If you encounter any issues or have further questions, feel free to ask!
+
+**Note:
