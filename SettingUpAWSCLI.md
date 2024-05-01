@@ -58,9 +58,9 @@
    ```
 
 **Note:**
-- If you want that your application run in the background you need to run this command.
+To ensure your application runs seamlessly in the background, execute the following command:
 ```shell
-nohup java -jar your-application.jar
+nohup java -jar your-application.jar --spring.profiles.active=your-yml-file-name 
 ```
 
 By following these steps, you can effectively manage S3, deploy Spring Boot applications to EC2, and terminate processes running on your EC2 instance. If you encounter any issues or have further questions, feel free to ask!
