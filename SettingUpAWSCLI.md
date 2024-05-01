@@ -57,6 +57,10 @@
    sudo netstat -tuln | grep <port_number>
    ```
 
-By following these steps, you can effectively manage S3, deploy Spring Boot applications to EC2, and terminate processes running on your EC2 instance. If you encounter any issues or have further questions, feel free to ask!
+**Note:**
+- If you want that your application run in the background you need to run this command.
+```shell
+nohup java -jar your-application.jar
+```
 
-**Note:
+By following these steps, you can effectively manage S3, deploy Spring Boot applications to EC2, and terminate processes running on your EC2 instance. If you encounter any issues or have further questions, feel free to ask!
