@@ -33,7 +33,7 @@ By default:
 Suppose you have a Python script that processes a large dataset and may take hours to finish. You can run it in the background using `nohup`:
 
 ```bash
-nohup python3.11 -u new_model.py > output.log 2>&1 &
+nohup python -u some_sciprt.py > output.log 2>&1 &
 ```
 
 Explanation:
